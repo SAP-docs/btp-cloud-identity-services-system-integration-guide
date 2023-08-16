@@ -1,4 +1,4 @@
-[![REUSE status]()]()
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-docs/btp-cloud-identity-services-system-integration-guide)](https://api.reuse.software/info/github.com/SAP-docs/btp-cloud-identity-services-system-integration-guide)
 
 # Contributions to the System Integration Guide for SAP Cloud Identity Services
 
