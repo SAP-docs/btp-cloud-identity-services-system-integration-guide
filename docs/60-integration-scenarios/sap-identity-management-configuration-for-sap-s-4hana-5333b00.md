@@ -25,9 +25,9 @@ Set up the systems for your provisioning scenario with SAP Identity Management a
 
 -   The following requirements related to the support for `userUUID` must be fulfilled:
 
-    -   SAP Note [3047993](https://launchpad.support.sap.com/#/notes/3047993) is applied on SAP Identity Management.
+    -   SAP Note [3047993](https://me.sap.com/notes/3047993) is applied on SAP Identity Management.
 
-    -   SAP Note [3003462](https://launchpad.support.sap.com/#/notes/3003462) is applied on SAP S/4HANA.
+    -   SAP Note [3003462](https://me.sap.com/notes/3003462) is applied on SAP S/4HANA.
 
     -   The communication \(technical\) user defined on the JCO\_CLIENT\_USER repository constant \(ABAP or Business Suite repository\) has the authorization object S\_USER\_UID assigned through a role.
 
