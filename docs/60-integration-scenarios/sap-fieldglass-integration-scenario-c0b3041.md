@@ -29,9 +29,11 @@ SAP Cloud Identity Services - Identity Authentication and Identity Provisioning,
 
 ## How to Use
 
-After purchasing your SAP Fieldglass, the Identity Provisioning tenant is created for your organization by opening an incident to *BC-IAM-IPS* component. To use an Identity Authentication tenant, you either need to purchase the service and obtain a tenant or use an existing one.
+After purchasing SAP Fieldglass, the technical contact person of your organization receives two onboarding e-mails from SAP. Each of them provides a tenant URL for accessing the SAP Cloud Identity Services administration console.
 
-You need to configure both tenants, as described in [Identity Authentication Configuration for SAP Fieldglass](identity-authentication-configuration-for-sap-fieldglass-05f51f3.md#loio05f51f3128124693a1da0faf503060c6) and [Identity Provisioning Configuration for SAP Fieldglass](identity-provisioning-configuration-for-sap-fieldglass-5b37ffe.md).
+In SAP Cloud Identity Services admin console, an application is created and connected to SAP Fieldglass where your users will log on to. The trust between Identity Authentication and SAP Fieldglass is configured. You can review those configurations and edit them if necessary. For more information, see [Identity Authentication Configuration for SAP Fieldglass](identity-authentication-configuration-for-sap-fieldglass-05f51f3.md#loio05f51f3128124693a1da0faf503060c6).
+
+Once you complete your Identity Authentication configuration, you can go on with your provisioning tasks. This bundle tenant is provisioned to your organization with preconfigured source and target provisioning systems. For more information, see [SAP Fieldglass Bundle](https://help.sap.com/docs/identity-provisioning/identity-provisioning/sap-fieldglass-bundle?version=Cloud) and [Identity Provisioning Configuration for SAP Fieldglass](identity-provisioning-configuration-for-sap-fieldglass-5b37ffe.md).
 
 -   **[Identity Authentication Configuration for SAP Fieldglass](identity-authentication-configuration-for-sap-fieldglass-05f51f3.md#loio05f51f3128124693a1da0faf503060c6 "Configure Identity
                                 Authentication to

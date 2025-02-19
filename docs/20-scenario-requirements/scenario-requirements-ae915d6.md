@@ -51,11 +51,11 @@ To set up your SAP cloud solutions to use the SAP Cloud Identity Services - Iden
 
     -   SAP Fieldglass
 
-        As SAP Fieldglass currently don't bundle Identity Authentication, you either need to purchase the service and obtain a tenant or use an existing one. Creating the Identity Provisioning tenant for SAP Fieldglass is triggered manually by opening an incident. For more information, see: [SAP Fieldglass Bundle](https://help.sap.com/docs/IDENTITY_PROVISIONING/f48e822d6d484fa5ade7dda78b64d9f5/1b299f67d20845a2aee57902fdbc3755.html?version=Cloud) → *How to Obtain*
+        Creating the SAP Cloud Identity Services tenant is triggered automatically. You receive onboarding e-mails with the URL links to your test and productive tenants. For more information, see: [SAP Fieldglass Bundle](https://help.sap.com/docs/IDENTITY_PROVISIONING/f48e822d6d484fa5ade7dda78b64d9f5/1b299f67d20845a2aee57902fdbc3755.html?version=Cloud) → *How to Obtain*
 
     -   SAP Concur
 
-        You receive onboarding e-mails with the URL links to your Identity Authentication and Identity Provisioning tenants.
+        Creating the SAP Cloud Identity Services tenant is triggered manually by opening an incident. For more information, see [SAP Concur Integration Scenario](../60-integration-scenarios/sap-concur-integration-scenario-ef38d9e.md).
 
     -   SAP Ariba
 

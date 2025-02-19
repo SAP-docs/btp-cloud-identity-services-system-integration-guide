@@ -10,9 +10,10 @@ Set up the systems for your provisioning scenario and run the provisioning jobs.
 
 ## Prerequisites
 
--   The Identity Provisioning tenant is created for your organization by opening an incident to *BC-IAM-IPS* component.
+-   The technical contact person in your organization has received the welcome e-mails from SAP with the tenant URL and the login information.
 
--   Configuration tasks in Identity Authentication have been completed.
+-   > ### Tip:  
+    > In bundled scenarios, SAP Fieldglass comes with a preconfigured source and target systems. You can use them as-is and run provisioning jobs or you can further adjust their configurations according to your needs. For more information, see [SAP Fieldglass Bundle](https://help.sap.com/docs/identity-provisioning/identity-provisioning/sap-fieldglass-bundle). **The steps presented here are for a manual configuration only.**
 
 
 
@@ -21,35 +22,28 @@ Set up the systems for your provisioning scenario and run the provisioning jobs.
 
 ## Context
 
-When your Identity Provisioning tenant is created by opening an incident, your source and target systems are not preconfigured.
-
-Administrators can add source and target systems supported by the service for their provisioning scenarios. They need to configure the connection details and the authentication mechanism for setting up the communication, as well as filtering, conflict resolution and other properties \(if needed\). For more information, follow the procedure described for your provisioning systems: [Source Systems](https://help.sap.com/viewer/f48e822d6d484fa5ade7dda78b64d9f5/Cloud/en-US/58033bec92124ef2a7905b37d0f50704.html) and [Target Systems](https://help.sap.com/viewer/f48e822d6d484fa5ade7dda78b64d9f5/Cloud/en-US/ab3f641552464c79b94d10b9205fd721.html)
-
-Newly added systems in the Identity Provisioning admin console are created with the default transformation.
 
 
+<a name="loio5b37ffea62154b4d9c6ac08bd3e75cbd__steps_lft_t3r_pzb"/>
 
 ## Procedure
 
-1.  Log on to the Identity Provisioning admin console with your S-user.
+1.  Sign in to the administration console of SAP Cloud Identity Services and navigate to *Identity Provisioning*.
 
-    The S-user specified in the incident request is assigned as the initial administrator of the Identity Provisioning tenant.
+    For more information, see [Access Identity Provisioning UI of Bundle Tenants](https://help.sap.com/docs/identity-provisioning/identity-provisioning/access-identity-provisioning-ui-of-bundle-tenants?version=Cloud)
 
-2.  Set up the source and target systems for your provisioning scenario. For example:
+2.  Review your preconfigured source and target systems.
 
-    -   [Identity Authentication \(Source\)](https://help.sap.com/viewer/f48e822d6d484fa5ade7dda78b64d9f5/Cloud/en-US/e4e25f1fae094c2a89ad62159e1cd230.html)
+    When opening the admin console, the *System Name* of the source and the target system is populated, and the *Properties* are preconfigured. You can adjust them according to your needs. For example, you can add filtering properties to control the provisioned data, enable bulk operations, if supported and others. For more information, see [List of Properties](https://help.sap.com/docs/identity-provisioning/identity-provisioning/list-of-properties).
 
-    -   [SAP Fieldglass \(Target\)](https://help.sap.com/viewer/f48e822d6d484fa5ade7dda78b64d9f5/Cloud/en-US/c4d3fd59a4dd4e7eac783107991afb57.html)
+3.  Review the transformations of the preconfigured source and target systems.
 
+    You can use the default source and target system transformations. However, you may want to modify them by adding conditions, functions and additional transformation code to further control how SAP Fieldglass user data is received in Identity Authentication, for example.
 
-3.  Configure connection and authentication properties for the systems.
+4.  At this point, you can schedule, run and monitor a provisioning job.
 
-4.  Define properties to further control how user data is provisioned. For more information, see: [List of Properties](https://help.sap.com/viewer/f48e822d6d484fa5ade7dda78b64d9f5/Cloud/en-US/d6f3577f30ec4af98e734b0126a60e37.html), where you need to search for properties prefixed with *<scim\>*.
+    For more information, see [Start and Stop Provisioning Jobs](https://help.sap.com/docs/identity-provisioning/identity-provisioning/start-and-stop-provisioning-jobs?version=Cloud).
 
-5.  Review the system transformations. Normally, customers add conditions and functions in the transformations to filter out user data. For more information, see: [Transformations](https://help.sap.com/viewer/f48e822d6d484fa5ade7dda78b64d9f5/Cloud/en-US/81f5204a5829429781d9ecc8b171f287.html)
-
-6.  Run a provisioning job manually or set a time interval for scheduled jobs. For more information, see: [Start and Stop Provisioning Jobs](https://help.sap.com/viewer/f48e822d6d484fa5ade7dda78b64d9f5/Cloud/en-US/531a2615b2d04eb8ba46a638b6d81cdc.html)
-
-7.  Monitor the provisioning job. For more information, see: [View Provisioning Job Logs](https://help.sap.com/viewer/f48e822d6d484fa5ade7dda78b64d9f5/Cloud/en-US/e5b5176c17ae4ae4bd32ae07877ddd79.html)
+5.  \(Optional\) Configure additional source, target and proxy systems supported by the service for your scenarios as described in [Supported Systems](https://help.sap.com/viewer/f48e822d6d484fa5ade7dda78b64d9f5/Cloud/en-US/81ca0c1b51b449daac240a18ee0d3ab1.html).
 
 

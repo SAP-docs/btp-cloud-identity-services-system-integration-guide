@@ -70,15 +70,11 @@ The default value is `userName`.
 >     <th valign="top">
 > 
 >     Microsoft Azure AD
-> 
-> 
 >     
 >     </th>
 >     <th valign="top">
 > 
 >     SAP SuccessFactors
-> 
-> 
 >     
 >     </th>
 >     </tr>
@@ -86,15 +82,11 @@ The default value is `userName`.
 >     <td valign="top">
 >     
 >     *ObjectID*=`a203fa88-7897-4b07-81a1-675a9368a41e` 
-> 
-> 
 >     
 >     </td>
 >     <td valign="top">
 >     
 >     *userID*=`Joe1` 
-> 
-> 
 >     
 >     </td>
 >     </tr>
@@ -102,15 +94,11 @@ The default value is `userName`.
 >     <td valign="top">
 >     
 >     *userName*=`JoeD` 
-> 
-> 
 >     
 >     </td>
 >     <td valign="top">
 >     
 >     *userName*=`JoeD` 
-> 
-> 
 >     
 >     </td>
 >     </tr>
@@ -118,15 +106,11 @@ The default value is `userName`.
 >     <td valign="top">
 >     
 >     *firstName*=`Joe` 
-> 
-> 
 >     
 >     </td>
 >     <td valign="top">
 >     
 >     *firstName*=`Joe` 
-> 
-> 
 >     
 >     </td>
 >     </tr>
@@ -134,15 +118,11 @@ The default value is `userName`.
 >     <td valign="top">
 >     
 >     *lastName*=`Dow` 
-> 
-> 
 >     
 >     </td>
 >     <td valign="top">
 >     
 >     *lastName*=`Dow` 
-> 
-> 
 >     
 >     </td>
 >     </tr>
@@ -150,15 +130,11 @@ The default value is `userName`.
 >     <td valign="top">
 >     
 >     *email*=`joe@test.com` 
-> 
-> 
 >     
 >     </td>
 >     <td valign="top">
 >     
 >     *email*=`joe@bestrun.com` 
-> 
-> 
 >     
 >     </td>
 >     </tr>

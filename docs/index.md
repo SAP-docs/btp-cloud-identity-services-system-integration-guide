@@ -34,6 +34,7 @@
     -   [SAP Ariba Integration Scenario](60-integration-scenarios/sap-ariba-integration-scenario-9114a35.md)
     -   [SAP BTP Integration Scenario](60-integration-scenarios/sap-btp-integration-scenario-0c3b5dc.md)
     -   [SAP Cloud for Customer Integration Scenario](60-integration-scenarios/sap-cloud-for-customer-integration-scenario-f496a61.md)
+    -   [Third-Party Scenarios](60-integration-scenarios/third-party-scenarios-5e37165.md)
     -   [Global User ID in Integration Scenarios](60-integration-scenarios/global-user-id-in-integration-scenarios-a04611d.md)
         -   [Usage of Global User ID](60-integration-scenarios/usage-of-global-user-id-5dcc5a6.md)
 -   [Application Scenarios](70-application-scenarios/application-scenarios-fc176b1.md)

@@ -43,10 +43,12 @@ Integrating SAP Concur with SAP Cloud Identity Services - Identity Authenticatio
 		procurement and supply chain solution and Identity
                                 Authentication.")**  
 Integrating SAP Ariba with SAP Cloud Identity Services - Identity Authentication and Identity Provisioning enables user authentication to SAP Ariba and user synchronization between the cloud-based procurement and supply chain solution and Identity Authentication.
--   **[SAP BTP Integration Scenario](sap-btp-integration-scenario-0c3b5dc.md "Integrating SAP BTP with SAP Cloud Identity Services - Identity
-                                Authentication and Identity Provisioning enables user authentication to SAP BTP as well as applications running on SAP BTP and user synchronization between SAP BTP and Identity
-                                Authentication.")**  
-Integrating SAP BTP with SAP Cloud Identity Services - Identity Authentication and Identity Provisioning enables user authentication to SAP BTP as well as applications running on SAP BTP and user synchronization between SAP BTP and Identity Authentication.
+-   **[SAP BTP Integration Scenario](sap-btp-integration-scenario-0c3b5dc.md "Integrating SAP BTP with
+			SAP Cloud Identity Services enables
+		user authentication with SAP BTP
+		as well as applications running on SAP BTP and user synchronization
+		between SAP BTP and SAP Cloud Identity Services.")**  
+Integrating SAP BTP with SAP Cloud Identity Services enables user authentication with SAP BTP as well as applications running on SAP BTP and user synchronization between SAP BTP and SAP Cloud Identity Services.
 -   **[SAP Cloud for Customer Integration Scenario](sap-cloud-for-customer-integration-scenario-f496a61.md "Integrating SAP Cloud for Customer (also known as SAP Sales Cloud and SAP
 		Service Cloud) with SAP Cloud Identity Services - Identity
                                 Authentication and Identity Provisioning enables user
@@ -55,6 +57,11 @@ Integrating SAP BTP with SAP Cloud Identity Services - Identity Authentication a
 			Identity
                                 Authentication.")**  
 Integrating SAP Cloud for Customer \(also known as SAP Sales Cloud and SAP Service Cloud\) with SAP Cloud Identity Services - Identity Authentication and Identity Provisioning enables user authentication to SAP Cloud for Customer and user synchronization between the cloud-based solution that helps you manage day-to-day sales and service interactions and Identity Authentication.
+-   **[Third-Party Scenarios](third-party-scenarios-5e37165.md "Integrating third-party systems with SAP Cloud Identity Services - Identity
+                                Authentication and Identity Provisioning enables user authentication to the third-party system and user
+		synchronization between the third-party system and Identity
+                                Authentication.")**  
+Integrating third-party systems with SAP Cloud Identity Services - Identity Authentication and Identity Provisioning enables user authentication to the third-party system and user synchronization between the third-party system and Identity Authentication.
 -   **[Global User ID in Integration Scenarios](global-user-id-in-integration-scenarios-a04611d.md "Using Global User ID addresses the challenge of integrating user-related data across
 		system boundaries. It provides the means for establishing an enterprise-wide mapping of
 		users for the purposes of integration scenarios which require a common user

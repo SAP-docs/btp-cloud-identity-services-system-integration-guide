@@ -27,7 +27,10 @@ Identity Authentication and Identity Provisioning play a key role in further int
 
 Currently, SAP Ariba does not bundle with SAP Cloud Identity Services - Identity Authentication and Identity Provisioning. Therefore, in order to integrate the cloud-based procurement and supply chain solution with both services, you need to purchase an SAP cloud solution, other than SAP Ariba, which bundles with Identity Authentication and Identity Provisioning. This could be, for example, SAP S/4HANA Cloud, SAP SuccessFactors or any other bundled solution listed under [Bundle Tenants and Connectors](https://help.sap.com/docs/IDENTITY_PROVISIONING/f48e822d6d484fa5ade7dda78b64d9f5/5db6c8dcf7a347fe81e2a78c3df9ec50.html?version=Cloud) section. As a result, you will get Identity Authentication and Identity Provisioning tenants preconfigured for the purchased solution.
 
-Also, in order to use Identity Provisioning for distributing users with Global User ID to SAP Ariba, your Identity Provisioning tenant must run on SAP Cloud Identity infrastructure. Otherwise, you won't be able to use the SAP Ariba Applications connector. This connector is enabled only for Identity Provisioning tenants running on the common infrastructure of SAP Cloud Identity Services. In case your tenant is running on SAP BTP, Neo environment, you need to migrate first, as described in [Migrate Identity Provisioning Tenant](https://help.sap.com/docs/IDENTITY_PROVISIONING/f48e822d6d484fa5ade7dda78b64d9f5/055f92d5e11d491c97b68223c68179ad.html?version=Cloud).
+To distribute users with Global User ID to SAP Ariba you need to use the Identity Provisioning connector for SAP Ariba Applications. This connector is enabled only for Identity Provisioning tenants running on the SAP Cloud Identity Services infrastructure. In case your tenant is running on SAP BTP, Neo environment, you need to migrate first, as described in [Migrate Identity Provisioning Tenant](https://help.sap.com/docs/IDENTITY_PROVISIONING/f48e822d6d484fa5ade7dda78b64d9f5/055f92d5e11d491c97b68223c68179ad.html?version=Cloud).
+
+> ### Note:  
+> The following procedure is not applicable for SAP Business Network \(formerly known as SAP Ariba Network\), which has its own dedicated connector in Identity Provisioning.
 
 To configure the integration between SAP Ariba and SAP Cloud Identity Services, proceed as follows:
 
@@ -48,7 +51,10 @@ To configure the integration between SAP Ariba and SAP Cloud Identity Services, 
 
     -   Use Identity Provisioning.
 
-        Create new users in Identity Authentication and provision them to SAP Ariba. You can do this using any of the following options: self-register users, upload them from CSV files, provision them by Identity Provisioning from existing user stores, such as Microsoft AD, AS ABAP, SAP SuccessFactors. For more information, see:
+        > ### Note:  
+        > The SAP Ariba Applications source and target systems consume SCIM 2.0 API provided by the cloud-based procurement and supply chain solution. For more information about the SAP Ariba SCIM API scope of support, see SAP Note [3228340](https://me.sap.com/notes/3228340).
+
+        Typical scenario for new SAP Ariba customers \(greenfield scenario\) - Create new users in Identity Authentication and provision them to SAP Ariba. You can do this using any of the following options: self-register users, upload them from CSV files, provision them by Identity Provisioning from existing user stores, such as Microsoft AD, AS ABAP, SAP SuccessFactors. For more information, see:
 
         -   [User Management](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/228428f9f476449cafd841a68d75b234.html?version=Cloud)
 
@@ -59,7 +65,7 @@ To configure the integration between SAP Ariba and SAP Cloud Identity Services, 
         -   [SAP Ariba Applications \(Target\)](https://help.sap.com/docs/IDENTITY_PROVISIONING/f48e822d6d484fa5ade7dda78b64d9f5/47c890311337469e8615de705c54b3f4.html)
 
 
-        Provision users from SAP Ariba to Identity Authentication. Configure SAP Ariba Applications source system and Identity Authentication target system in the Identity Provisioning admin console and run or schedule a provisioning job. For more information, see:
+        Typical scenario for existing SAP Ariba customers \(brownfield scenario\) - Provision users from SAP Ariba to Identity Authentication. Configure SAP Ariba Applications source system and Identity Authentication target system in the Identity Provisioning admin console and run or schedule a provisioning job. For more information, see:
 
         -   [SAP Ariba Applications \(Source\)](https://help.sap.com/docs/IDENTITY_PROVISIONING/f48e822d6d484fa5ade7dda78b64d9f5/0ef109106be242319bb18ac4130a9564.html)
 

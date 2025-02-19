@@ -2,7 +2,7 @@
 
 # Scenario Recommendations
 
-We recommend that you design your identity and access management landscape around our reference architectures. Whether you are staring from scratch or want to migrate an existing solution, we provide a target architecture for what we believe is the best solution..
+We recommend that you design your identity and access management landscape around our reference architectures. Whether you are starting from scratch or want to migrate an existing solution, we provide a target architecture for what we believe is the best solution.
 
 -   **[Single Sign-On: Authentication with a Single SAP Cloud Identity Services Tenant and a Single Corporate Identity Provider](single-sign-on-authentication-with-a-single-sap-cloud-identity-services-tenant-and-a-4970fec.md "When you adopt SAP cloud products and integrate them into your system landscape, you choose an approach for identity access management
 		(IAM). The approach you choose depends on the integration you want from the perspective of single sign-on, whether you have a unified, simple

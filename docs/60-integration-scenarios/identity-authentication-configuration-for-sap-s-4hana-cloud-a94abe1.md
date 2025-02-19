@@ -40,7 +40,7 @@ For the configuration in the administration console for Identity Authentication,
 **Related Information**  
 
 
-[User Onboarding for SAP S/4HANA Cloud with SAP Central Business Configuration in the 3-system landscape](https://help.sap.com/viewer/DRAFT/b249d650b15e4b3d9fc2077ee921abd0/2202.500/en-US/fe1022c05f4a4a9f871395f19883faac.html)
+[Initial System Access to SAP S/4HANA Cloud in Your 3-System Landscape](https://help.sap.com/docs/SAP_S4HANA_CLOUD/b249d650b15e4b3d9fc2077ee921abd0/fe1022c05f4a4a9f871395f19883faac.html?version=2308.503)
 
 [SAP Cloud Identity Services REST APIs](https://api.sap.com/package/SCPIdentityServices/rest)
 

@@ -122,5 +122,5 @@ The integration with SAP Cloud Identity Services requires an initial configurati
 
 [Global User ID in Integration Scenarios](../60-integration-scenarios/global-user-id-in-integration-scenarios-a04611d.md "Using Global User ID addresses the challenge of integrating user-related data across system boundaries. It provides the means for establishing an enterprise-wide mapping of users for the purposes of integration scenarios which require a common user identifier.")
 
-[https://help.sap.com/sci](https://help.sap.com/sci)
+[SAP Cloud Identity Services](https://help.sap.com/sci)
 
