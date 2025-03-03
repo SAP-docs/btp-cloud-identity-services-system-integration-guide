@@ -1,0 +1,10 @@
+version = 1
+SPDX-PackageName = "btp-cloud-identity-services-system-integration-guide"
+SPDX-PackageSupplier = "Valentin Atanassov (valentin.atanassov@sap.com)"
+SPDX-PackageDownloadLocation = "https://github.com/sap-docs/btp-cloud-identity-services-system-integration-guide"
+
+[[annotations]]
+path = "**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2023 SAP SE or an SAP affiliate company and btp-cloud-identity-services-system-integration-guide contributors"
+SPDX-License-Identifier = "CC-BY-4.0"
